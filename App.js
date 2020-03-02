@@ -1,13 +1,9 @@
+/* eslint-disable no-use-before-define */
+/* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
-import {
-  StyleSheet,
-  View,
-  Text,
-} from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 
-import {
-  Colors,
-} from 'react-native/Libraries/NewAppScreen';
+import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 export default class App extends Component {
   render() {
@@ -19,13 +15,13 @@ export default class App extends Component {
       </>
     );
   }
-};
+}
 
 const styles = StyleSheet.create({
   body: {
     flex: 1,
     backgroundColor: Colors.white,
-    justifyContent: "center",
-    alignItems: "center",
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
