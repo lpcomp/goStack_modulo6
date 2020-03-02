@@ -1,0 +1,9 @@
+install: yarn add react-native-cli
+create: npx react-native init AwesomeProject
+run: npx react-native run-android
+
+
+
+yarn add eslint -D
+yarn eslint --init
+yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
