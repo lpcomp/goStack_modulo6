@@ -7,3 +7,7 @@ run: npx react-native run-android
 yarn add eslint -D
 yarn eslint --init
 yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
+
+npx react-native run-android
+adb reverse tcp:9090 tcp:9090
+console.tron.log(response);
